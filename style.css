@@ -169,6 +169,54 @@ margin: 40px;
     font-size: 1rem;
     font-weight: 500;
 }
+#education {
+    margin: 40px;
+}
+
+.education-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    margin-top: 25px;
+}
+
+.education-item {
+    background-color: #1e1e1e;
+    border: 1px solid #3a3a3a;
+    border-left: 4px solid #ffbf00;
+    border-radius: 10px;
+    padding: 20px;
+    transition: transform 0.3s ease,
+                border-color 0.3s ease;
+}
+
+.education-item:hover {
+    transform: translateY(-4px);
+    border-color: #ffbf00;
+}
+
+.education-item h3 {
+    color: #e0e0e0;
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+}
+
+.education-item .institution {
+    color: #ffbf00;
+    font-weight: 600;
+}
+
+.education-item .duration {
+    color: #a0a0a0;
+    font-size: 0.9rem;
+    margin: 5px 0 10px;
+}
+
+.education-item .details {
+    color: #c0c0c0;
+    line-height: 1.6;
+}
+
 
 
 
